@@ -11,6 +11,15 @@ import cucumber.api.junit.Cucumber;
 )
 public class TestRunner {
 
+	public void report() {
+		System.out.println("Generate Report by JSON");
+
+	}
+
+	public void json() {
+		System.out.println("Generate report by converting Json into html");
+	}
+
 	public void findigELement() {
 		System.out.println("Find Element by using Locator");
 
@@ -20,4 +29,5 @@ public class TestRunner {
 		System.out.println("Syntax of xpath is : //tagname[@attributename='attribbutevalue']");
 
 	}
+
 }
